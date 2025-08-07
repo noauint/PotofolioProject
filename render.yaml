@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: potofolio-project
+    env: docker
+    plan: free
+    repo: https://github.com/noauint/PotofolioProject
+    branch: main
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: JAVA_OPTS
+        value: "-Xmx512m"
