@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS custome_rise;
+
+CREATE DATABASE custome_rise DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
